@@ -1,6 +1,5 @@
 import numpy as np
 
-
 Fmax = 30 # Fmax - Maximal tetanic force, i.e. physiological cross-sectional area in N/cm^2
 L = 10 # L - Current muscle length
 L0 = 1 # L0 - Optimal muscle length
