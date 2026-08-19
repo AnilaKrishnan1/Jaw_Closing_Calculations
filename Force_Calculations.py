@@ -1,10 +1,11 @@
 import numpy as np
 
-Fmax = 30 # Fmax - Maximal tetanic force, i.e. physiological cross-sectional area in N/cm^2
+Fmax = 37 # Fmax - Maximal tetanic force, i.e. physiological cross-sectional area in N/cm^2
 L = 10 # L - Current muscle length
-L0 = 1 # L0 - Optimal muscle length
+L0 = 56.742237 # L0 - Optimal muscle length for M. adductor mandible externus superficialis muscle cm
+Fiber_Length = 0.35*L0 # Converts muscle length to optimal fiber length
 FQ = 1 # FQ -  An activation factor
-Vmax = 10 # Maximum contraction velocity
+Vmax = 14.6*10*Fiber_Length # Maximum contraction velocity; converts L0 into mm
 V = 8 # Current velocity 
 k = 0.25 #Constant
 

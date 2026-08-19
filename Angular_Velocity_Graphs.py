@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 data = pd.read_csv("Tyrannosaurus_jaw_closing_accelerations.xlsx - Sheet1.csv", header = None) 
 time = data.iloc[1:33, 31]
-time = pd.to_numeric(time, errors="coerce") # convert to numbers
+time = pd.to_numeric(time, errors="coerce") # convert to integers
 valid_time = time.notna()
 time = time[valid_time]
 
