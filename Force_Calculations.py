@@ -9,8 +9,8 @@ Vmax = 14.6*10*Fiber_Length # Maximum contraction velocity; converts L0 into mm
 V = 8 # Current velocity 
 k = 0.25 #Constant
 
-muscles = [0.5558085]
-           #,0.651961,0.72138817,0.4527533333,0.657911,0.385,0.40362,0.307272]
+muscles = [0.5558085,0.651961,0.72138817,0.4527533333,0.657911,0.385,0.40362,0.307272] #For muscles when lower jaw is 13 degrees open
+           
 
 for index, item in enumerate(muscles):
     L0 = muscles[index]*100
